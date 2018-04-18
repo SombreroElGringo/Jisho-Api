@@ -1,0 +1,24 @@
+{
+  "name": "my-jisho-api",
+  "version": "1.0.0",
+  "description": "Jisho API, sample API to get kanji & meaning!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "SombreroElGringo",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "chalk": "^2.4.0",
+    "cookie-parser": "^1.4.3",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "html-entities": "^1.2.1",
+    "htmlparser": "^1.7.7",
+    "morgan": "^1.9.0",
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2"
+  }
+}
